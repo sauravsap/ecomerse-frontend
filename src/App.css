@@ -3,9 +3,24 @@
 
 body{font-family: "Dancing Script", serif;font-size: 14px;}
 
-.bg-purple{background-color: rgba(43, 43, 248, 0.711);}
-
+.bg-blue{background-color: #233a95;}
+/* rgba(43, 43, 248, 0.711 */
+.container{max-width: 90%;}
 .headerWrapper .top-strip{ padding:8px 0px;}
-.headerWrapper .top-strip p{ color:#ffff;font-size: 16px;font-weight: 500;}
+.headerWrapper .top-strip p{ color:#fff;font-size: 16px;font-weight: 500;}
 .headerWrapper .header{width:100%;height: auto;padding: 15px 0px;}
 .logoWrapper img{width :100%}
+.headerWrapper .header .part2 .countryDrop{width: 170px; height:60px; min-width:170px;color: #233a95!important; border: 1px solid #233a95;border-radius: 8px;padding: 10px 15px!important;}
+.headerWrapper .header .part2 .countryDrop{text-align: left;justify-content: flex-start!important;}
+.headerWrapper .header .part2 .countryDrop .lable{font-size:12px! important; text-transform: capitalize!important;color:rgb(0,0,0,0.5)!important;line-height: 16px;}
+.headerWrapper .header .part2 .countryDrop .value{font-size:14px! important; text-transform: capitalize!important;color:#233a95!important;font-weight: 700;line-height: 16px;}
+.headerWrapper .header .part2 .countryDrop span.ms-3 svg{opacity: 0.7;}
+header .headerSearch{width:60%;height:60px;background: #f3f5f7;padding:10px;border-radius: 8px; position: relative; border: 1px solid #233a95;} 
+header .headerSearch input{background: transparent!important; outline: none!important;font-size: 18px;color: rgb(0,0,0,0.8);width: 100%;height: 30px;padding: 0px 20px!important; border:0px!important;}
+header .headerSearch input::-webkit-input-placeholder rgb {color: rgb(0,0,0,0.5)!important;}
+header .headerSearch button{background: transparent;border: none;outline: none;color:233a95;position: absolute;top:10px;right: 15px;z-index: 100px;min-width:40px!important;height:40px!important;width:60px!important;border-radius: 50%!important;color: #000;}
+header .headerSearch button svg{font-size: 25px;}
+header .user .userDrop{align-items: center; justify-content:center; min-width: 50px !important; height: 50px !important; width: 50px !important; border-radius: 50% !important; border: 1px solid rgba(0,0,0,0.1) !important; color: #000;}
+header .user .userDrop svg{font-size: 30px;}
+header .user .circle {align-items: center; justify-content:center; min-width: 50px !important; height: 50px !important; width: 50px !important; border-radius: 50% !important; border: 1px  #eb5252c6 !important; color: #eb5252c6;background: #fff1ee;}
+header .user .circle svg{font-size: 30px;}

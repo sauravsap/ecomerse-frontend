@@ -10,7 +10,7 @@ const CountryDropdown = () => {
                 <span className="value">Nepal</span>
             </div>
             <div>
-                <span className="ms-3"><FaAngleDown/></span>
+                <span className="ms-4"><FaAngleDown/></span>
             </div>
         </Button>
         </>

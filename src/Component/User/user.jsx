@@ -8,7 +8,7 @@ const User =() => {
             <Button className="userDrop mr-3" ><FiUser/></Button>
             <div className="ms-3  cartTab"></div>
             <span className="price">Rs.5000</span>
-            <Button className="circle ms-3"><TfiShoppingCart/></Button>
+            <Button className="shopingCart ms-3"><TfiShoppingCart/></Button>
             </div>
         </>
     )

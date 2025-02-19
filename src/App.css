@@ -5,10 +5,14 @@ body{font-family: "Dancing Script", serif;font-size: 14px;}
 
 .bg-blue{background-color: #233a95;}
 /* rgba(43, 43, 248, 0.711 */
-.container{max-width: 90%;}
+@media (min-width:1300px){
+    .container, .container-lg, .container-sm, .container-x1{
+        max-width:1200;
+    }
+}
 .headerWrapper .top-strip{ padding:8px 0px;}
 .headerWrapper .top-strip p{ color:#fff;font-size: 16px;font-weight: 500;}
-.headerWrapper .header{width:100%;height: auto;padding: 15px 0px;}
+.headerWrapper .header{width:100%;height: auto;padding: 25px 0px;}
 .logoWrapper img{width :100%}
 .headerWrapper .header .part2 .countryDrop{width: 170px; height:60px; min-width:170px;color: #233a95!important; border: 1px solid #233a95;border-radius: 8px;padding: 10px 15px!important;}
 .headerWrapper .header .part2 .countryDrop{text-align: left;justify-content: flex-start!important;}
@@ -22,5 +26,14 @@ header .headerSearch button{background: transparent;border: none;outline: none;c
 header .headerSearch button svg{font-size: 25px;}
 header .user .userDrop{align-items: center; justify-content:center; min-width: 50px !important; height: 50px !important; width: 50px !important; border-radius: 50% !important; border: 1px solid rgba(0,0,0,0.1) !important; color: #000;}
 header .user .userDrop svg{font-size: 30px;}
-header .user .circle {align-items: center; justify-content:center; min-width: 50px !important; height: 50px !important; width: 50px !important; border-radius: 50% !important; border: 1px  #eb5252c6 !important; color: #eb5252c6;background: #fff1ee;}
-header .user .circle svg{font-size: 30px;}
+header .user .shopingCart {align-items: center; justify-content:center; min-width: 50px !important; height: 50px !important; width: 50px !important; border-radius: 50% !important; border: 1px  #eb5252c6 !important; color: #eb5252c6;background: #fff1ee;}
+header .user .shopingCart svg{font-size: 30px;}
+nav .allCatTab{ background: #00a8e8; padding: 10px 15px!important;border-radius: 30px!important;}
+nav .allCatTab *{color:#fff;}
+nav .allCatTab:hover{background: #00a8e8;}
+nav .allCatTab .text{font-weight: 600;}
+nav .allCatTab .menueIcon svg{font-size: 20px!important;margin-right:8px!important}
+nav .allCatTab .iconDown svg{font-size: 15px!important;}
+nav .navPart2 ul{margin-bottom:0px;}
+nav .navPart2 ul li a{font-size: 16px;font-weight: 500; text-decoration: none;color: rgb(0,0,0,0.7);text-transform: uppercase;display: flex;align-items: center;padding: 10px 10px!important;transition: all 0.2s ease-in-out;border-radius: 30px;}
+nav .navPart2 ul li a:hover{background: #f0faff;color:#00a8e8 }

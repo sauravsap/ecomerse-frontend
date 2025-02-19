@@ -3,7 +3,7 @@ import Logo from "../../assets/image/Logo.png";
 import CountryDropdown from "../CountreDropDown/country-dd-index";
 import HeaderSearch from "../HeaderSearch/headerSearch";
 import User from "../User/user";
-
+import Navbar from "../Navbar/navbar";
 
 const Header = () => {
     return (
@@ -24,13 +24,13 @@ const Header = () => {
                           <CountryDropdown/>
                             <HeaderSearch/>
                             <User/>
-                            
+                           
 
                          </div>
                  </div>
              </div>
         </header>
-
+            <Navbar/>   
             
     </div>
        </>

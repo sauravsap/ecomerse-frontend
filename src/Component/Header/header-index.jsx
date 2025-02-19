@@ -4,6 +4,7 @@ import CountryDropdown from "../CountreDropDown/country-dd-index";
 import HeaderSearch from "../HeaderSearch/headerSearch";
 import User from "../User/user";
 
+
 const Header = () => {
     return (
        <>
@@ -23,6 +24,7 @@ const Header = () => {
                           <CountryDropdown/>
                             <HeaderSearch/>
                             <User/>
+                            
 
                          </div>
                  </div>
